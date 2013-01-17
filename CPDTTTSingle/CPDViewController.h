@@ -10,4 +10,18 @@
 
 @interface CPDViewController : UIViewController
 
+@property float progressIndicator;
+@property char currentText;
+@property BOOL currentBit;
+@property NSString *buttonText;
+
+@property (weak, nonatomic) IBOutlet UIProgressView *advanceGame;
+
+@property (weak, nonatomic) IBOutlet UIButton *startRestartButton;
+
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+@property (weak, nonatomic) IBOutlet UIButton *button3;
+
+
 @end

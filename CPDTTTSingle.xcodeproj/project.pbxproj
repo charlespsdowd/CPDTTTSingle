@@ -24,6 +24,7 @@
 		61B9819616A2132E00A7AF7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B9816E16A2132E00A7AF7B /* Foundation.framework */; };
 		61B9819E16A2132E00A7AF7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61B9819C16A2132E00A7AF7B /* InfoPlist.strings */; };
 		61B981A116A2132E00A7AF7B /* CPDTTTSingleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B981A016A2132E00A7AF7B /* CPDTTTSingleTests.m */; };
+		61B981AC16A3515400A7AF7B /* CPDTicTacToe.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B981AB16A3515400A7AF7B /* CPDTicTacToe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		61B9819D16A2132E00A7AF7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61B9819F16A2132E00A7AF7B /* CPDTTTSingleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDTTTSingleTests.h; sourceTree = "<group>"; };
 		61B981A016A2132E00A7AF7B /* CPDTTTSingleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDTTTSingleTests.m; sourceTree = "<group>"; };
+		61B981AA16A3515400A7AF7B /* CPDTicTacToe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDTicTacToe.h; sourceTree = "<group>"; };
+		61B981AB16A3515400A7AF7B /* CPDTicTacToe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDTicTacToe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				61B9818A16A2132E00A7AF7B /* CPDViewController.h */,
 				61B9818B16A2132E00A7AF7B /* CPDViewController.m */,
 				61B9817316A2132E00A7AF7B /* Supporting Files */,
+				61B981AA16A3515400A7AF7B /* CPDTicTacToe.h */,
+				61B981AB16A3515400A7AF7B /* CPDTicTacToe.m */,
 			);
 			path = CPDTTTSingle;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				61B9817916A2132E00A7AF7B /* main.m in Sources */,
 				61B9817D16A2132E00A7AF7B /* CPDAppDelegate.m in Sources */,
 				61B9818C16A2132E00A7AF7B /* CPDViewController.m in Sources */,
+				61B981AC16A3515400A7AF7B /* CPDTicTacToe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
